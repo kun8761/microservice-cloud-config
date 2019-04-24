@@ -2,7 +2,7 @@
 spring:
   profiles:
     active: dev # 激活开发环境配置
----
+------------------------------------------------------------------------------------------------------------------------------
 server:
   port: 8001
 mybatis:
@@ -34,7 +34,7 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true 
----
+---------------------------------------------------------------------------------------------------------------------------------
 server:
   port: 8001
 mybatis:
@@ -50,7 +50,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_db02?serverTimezone=GMT%2B8 #数据库连接地址，*****注意库名 db02***************
     username: root
-    password: root
+    password: 123456
     dbcp2:
       min-idle: 5
       initial-size: 5
