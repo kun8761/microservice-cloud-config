@@ -68,5 +68,5 @@ eureka:
     prefer-ip-address: true 
     
 emp:
-  name: zhangsan
+  name: zhangsan22
 
